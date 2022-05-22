@@ -1,0 +1,72 @@
+/*selecting everything*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./Images/72a184aa7846cad0d5a82cf55dc3f406.jpg);
+        background-position: 0 1000px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+}
+.container{
+    max-width: 800px;
+    width: 100;
+    margin: 0 auto;
+}
+#contact{
+    background-color: #b2604b;
+    padding: 20px;
+    margin: 50px 0;
+}
+#contact h1{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    color: aliceblue;
+}
+#contact h3{
+    margin: 5px 0px 15px;
+    text-align: center;
+}
+.row{
+    display: flex;
+    width: 100% !important;
+    padding: 20px 0px;
+
+}
+.row .column{
+    margin: 0px 20px;
+    width: 50%;
+}
+fieldset{
+    border: medium none !important;
+    margin: 0 0 10px;
+    width: 100%;
+
+}
+#contact imput {
+    width: 100%;
+    border: 1px solid tan;
+    background-color: white;
+    padding: 10px;
+    margin: 5px 0;
+}
+.btn{
+    display: inline-block;
+    padding:10px;
+    background: #f3f2ee;
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    transition: background 0.5s;
+    margin: 0 0 5px 70%;
+}
+.btn:hover{
+    background: white;
+}
+

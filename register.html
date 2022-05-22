@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <h3>
+        <a href="./aboutme.html" class="btn" id="homebutton">Home</a>
+        <a href="./Contactme.html" class="btn" id="homebutton">Contact Me</a>
+        <a href="./register.html" class="btn" id="homebutton">Register</a>
+        <a href="./login.html" class="btn" id="homebutton">Login</a>
+
+    </h3>
+    <link rel="stylesheet" href="./register.css">
+</head>
+<body>
+    <div class="container">
+        <form id= "contact" action="" method="post">
+            <h1>Registration Form</h1>
+            <h3>Fill the form correctly to register</h3>
+            <div class="row">
+                <div class="column">
+                    <fieldset>
+                        <label for="First Name">First Name</label>
+                        <input type="text" name="First Name" id="Firstname" required>
+
+                    </fieldset>
+                    <fieldset>
+                        <label for="Last Name">Last Name</label>
+                        <input type="text" name="Last Name" id="Lastname" required>
+                        
+                    </fieldset>
+                    <fieldset>
+                        <label for="Phone Number">Phone Number</label>
+                        <input type="tel" name="Phone Number" id="Phone Number"required>
+                        
+                    </fieldset>
+                    <fieldset>
+                        <label for="Gender">Gender</label>
+                        <select name="Gender" id="Gender">
+                            <option value="empty"></option>
+                            <option value="Female">Female</option>
+                            <option value="Male">Male</option>
+                            <option value="Other">Other</option>
+                            <option value="Rather Not Say">Rather Not Say</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <label for="country">Country</label>
+                        <input type="text" name="Country" id="Country" required>
+                        
+                    </fieldset>
+                    <fieldset>
+                        <label for="State/Province">State/Province</label>
+                        <input type="text" name="State/Province" id="State/Province" required>
+                        
+                    </fieldset>
+                    <fieldset>
+                        <label for="Username">Username</label>
+                        <input type="text" name="Usename" id="Username" required>
+                        
+                    </fieldset>
+                    <fieldset>
+                        <label for="Password">Password</label>
+                        <input type="password" name="Password" id="Pasword" required>
+                        
+                    </fieldset>
+                    <fieldset>
+                        <label for="Confirm Password">Confirm Password</label>
+                        <input type="password" name="Confirm Password" id="Confirm Pasword" required>
+                        
+                    
+                    </fieldset>
+                    <a href="#" class="btn">Submit</a>
+                </div>
+            </div>
+        
+        </form>
+
+    </div>
+</body>
+</html>
