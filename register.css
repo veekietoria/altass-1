@@ -4,6 +4,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+html{
+    font-size: 10px;
+}
 body{
     background: url(./Images/72a184aa7846cad0d5a82cf55dc3f406.jpg);
         background-position: 0 1000px;
@@ -12,11 +15,20 @@ body{
     font-size: 14px;
     color: black;
 }
+h3{
+    padding: 5px;
+    position: relative absolute 2 2 15;
+    background-color: #dadada;
+    margin: 5px;
+    text-align: center;
+}
 .container{
     max-width: 800px;
     width: 100;
     margin: 0 auto;
+    
 }
+
 #contact{
     background-color: #b2604b;
     padding: 20px;
@@ -70,3 +82,16 @@ fieldset{
     background: white;
 }
 
+.button{
+    display:inline-block;
+    padding:.7rem 7.5rem;
+    background: #b2604b;
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    transition: background 0.5s;
+}
+.button:hover{
+    background: #dadada;
+}
